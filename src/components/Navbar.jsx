@@ -61,7 +61,7 @@ export default function Navbar({ lang, setLang, onOpenContact }) {
           
           {/* CV Button (Always Single Line with whitespace-nowrap) */}
           <a
-            href="/Muhammed-Mahmoud-CV.pdf"
+            href="./Muhammed-Mahmoud-CV.pdf"
             download="Muhammed-Mahmoud-CV.pdf"
             className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-zinc-800 bg-zinc-900/90 text-xs font-semibold text-zinc-200 hover:border-[#d4af37]/50 hover:text-[#fef08a] transition-all whitespace-nowrap shrink-0 shadow-sm"
             title="Download CV / تحميل السيرة الذاتية"
@@ -124,7 +124,7 @@ export default function Navbar({ lang, setLang, onOpenContact }) {
             {/* Mobile CV Download button inside drawer */}
             <div className="pt-3 mt-1 border-t border-white/[0.06]">
               <a
-                href="/Muhammed-Mahmoud-CV.pdf"
+                href="./Muhammed-Mahmoud-CV.pdf"
                 download="Muhammed-Mahmoud-CV.pdf"
                 onClick={handleNavClick}
                 className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs font-bold text-white bg-zinc-900 border border-[#d4af37]/40 hover:bg-zinc-800 transition-all shadow-sm"
